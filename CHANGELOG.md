@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 1.0.0 (2024-03-19)
+
+
+### Features
+
+* drop support for PHP &lt; 8.1 ([9e26f05](https://github.com/askdkc/BaconQrCode/commit/9e26f05b0f7f46f9df37a78316cf1443f626ae4e))
+* make utf-8 eci prefix configurable ([#130](https://github.com/askdkc/BaconQrCode/issues/130)) ([8eba389](https://github.com/askdkc/BaconQrCode/commit/8eba389da071f396d71ddf034289093b9e4e9cae))
+
+
+### Bug Fixes
+
+* use non-locale aware format for scale and translate ([#100](https://github.com/askdkc/BaconQrCode/issues/100)) ([13ea674](https://github.com/askdkc/BaconQrCode/commit/13ea674432e798df82d6c56a10b2c0a2692ce3d1))
+* **Version:** correct number of EC blocks for version 4 ([ed3734a](https://github.com/askdkc/BaconQrCode/commit/ed3734a9fcd1ca162aba79a5baef38bb4750218f))
+
+
+### Miscellaneous Chores
+
+* add test related files to .gitattributes ([2ca5870](https://github.com/askdkc/BaconQrCode/commit/2ca58705f6361673a658dbcb070940c65d04c7ac))
+* bump github action "codecov/codecov-action" 3 =&gt; 4 ([bebae49](https://github.com/askdkc/BaconQrCode/commit/bebae498483f1dac210f260cb8f75660a2400fcd))
+* fix ci deprecations ([db591bf](https://github.com/askdkc/BaconQrCode/commit/db591bf4d9757b2b68beda6dce3875b718d03aa7))
+* fix ci deprecations, run phpcs on php 8.2 ([#140](https://github.com/askdkc/BaconQrCode/issues/140)) ([c759df7](https://github.com/askdkc/BaconQrCode/commit/c759df715aa86e34b9b83cd2b56b1df0cf4f21b2))
+
 ## 3.0.0 - 2022-03-14
 
 ### Changed
